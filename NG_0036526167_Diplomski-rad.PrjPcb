@@ -85,13 +85,13 @@ DocumentUniqueId=ZGLIAZAA
 
 [Document3]
 DocumentPath=USB.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=301
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
+AnnotateOrder=3
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -120,11 +120,11 @@ DocumentUniqueId=YFHCZDKX
 [Document5]
 DocumentPath=CONN.SchDoc
 AnnotationEnabled=0
-AnnotateStartValue=301
+AnnotateStartValue=401
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=3
+AnnotateOrder=4
 DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -137,11 +137,11 @@ DocumentUniqueId=APOAYIUP
 [Document6]
 DocumentPath=WIRELESS.SchDoc
 AnnotationEnabled=0
-AnnotateStartValue=401
+AnnotateStartValue=501
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=4
+AnnotateOrder=5
 DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
