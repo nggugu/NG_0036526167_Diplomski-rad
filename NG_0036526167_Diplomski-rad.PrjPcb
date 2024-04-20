@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Production
 
 [Preferences]
 PrefsVaultGUID=
@@ -67,6 +68,23 @@ GenerateClassCluster=0
 DocumentUniqueId=TGNIXVJH
 
 [Document2]
+DocumentPath=BLOCK-DIAGRAM.SchDoc
+AnnotationEnabled=0
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=0
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=APEDKOLQ
+
+[Document3]
 DocumentPath=POWER.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=101
@@ -83,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZGLIAZAA
 
-[Document3]
+[Document4]
 DocumentPath=USB.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=301
@@ -100,9 +118,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QMIFZEUE
 
-[Document4]
+[Document5]
 DocumentPath=MCU.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=201
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -117,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YFHCZDKX
 
-[Document5]
+[Document6]
 DocumentPath=CONN.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=401
@@ -125,7 +143,7 @@ AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=4
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -134,15 +152,15 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=APOAYIUP
 
-[Document6]
+[Document7]
 DocumentPath=WIRELESS.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=501
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=5
-DoLibraryUpdate=0
+DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=0
@@ -151,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QHWLPEGO
 
-[Document7]
+[Document8]
 DocumentPath=Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,17 +186,45 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document9]
+DocumentPath=NG_0036526167_Diplomski-rad_PCB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NJKYYCWU
+
+[ProjectVariant1]
+UniqueID=703690D1-750E-4F24-8FD9-22DB9E9EF880
+Description=Production
+AllowFabrication=0
+ParameterCount=0
+VariationCount=3
+Variation1=Designator=R303|UniqueId=\PYLQLFGG|Kind=1|AlternatePart= 
+Variation2=Designator=R304|UniqueId=\YXGJTCQI|Kind=1|AlternatePart= 
+Variation3=Designator=R504|UniqueId=\DBABEENB|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [Parameter1]
-Name=Title
-Value=Wearable Measurement System for Detection and Classification of Speech Fluency Disorders
+Name=Engineer
+Value=Nikola Gudan
 
 [Parameter2]
 Name=Revision
 Value=A
 
 [Parameter3]
-Name=Engineer
-Value=Nikola Gudan
+Name=Title
+Value=Wearable Measurement System for Detection and Classification of Speech Fluency Disorders
 
 [Configuration1]
 Name=Sources
@@ -1202,8 +1248,8 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=NG_Mechanical.SchLib
-ComponentDesignItemID0=HEADER 6X1 RA
-ComponentSymbolReference0=HEADER 6X1 RA
+ComponentDesignItemID0=HEADER4X1
+ComponentSymbolReference0=HEADER4X1
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=0
@@ -1242,7 +1288,7 @@ ParameterUpdate9=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=HDRRA6W64P254_1X6_1499X254X254
+ModelName0=HDRV4W64P254_4X1_1016X254X1150
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
