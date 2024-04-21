@@ -208,10 +208,12 @@ UniqueID=703690D1-750E-4F24-8FD9-22DB9E9EF880
 Description=Production
 AllowFabrication=0
 ParameterCount=0
-VariationCount=3
+VariationCount=5
 Variation1=Designator=R303|UniqueId=\PYLQLFGG|Kind=1|AlternatePart= 
 Variation2=Designator=R304|UniqueId=\YXGJTCQI|Kind=1|AlternatePart= 
 Variation3=Designator=R504|UniqueId=\DBABEENB|Kind=1|AlternatePart= 
+Variation4=Designator=R315|UniqueId=\DLHMQWCQ|Kind=1|AlternatePart= 
+Variation5=Designator=R314|UniqueId=\ADGBRYYR|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
