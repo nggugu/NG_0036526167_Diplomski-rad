@@ -218,16 +218,16 @@ Variation6=Designator=R407|UniqueId=\IRPVYFCH|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Title
-Value=Wearable Measurement System for Detection and Classification of Speech Fluency Disorders
+Name=Engineer
+Value=Nikola Gudan
 
 [Parameter2]
 Name=Revision
 Value=A
 
 [Parameter3]
-Name=Engineer
-Value=Nikola Gudan
+Name=Title
+Value=Wearable Measurement System for Detection and Classification of Speech Fluency Disorders
 
 [Configuration1]
 Name=Sources
