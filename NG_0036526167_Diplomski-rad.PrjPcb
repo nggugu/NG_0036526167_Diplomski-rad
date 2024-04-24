@@ -86,7 +86,7 @@ DocumentUniqueId=APEDKOLQ
 
 [Document3]
 DocumentPath=POWER.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=101
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -154,7 +154,7 @@ DocumentUniqueId=APOAYIUP
 
 [Document7]
 DocumentPath=WIRELESS.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=501
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
