@@ -120,7 +120,7 @@ DocumentUniqueId=QMIFZEUE
 
 [Document5]
 DocumentPath=MCU.SchDoc
-AnnotationEnabled=0
+AnnotationEnabled=1
 AnnotateStartValue=301
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -154,7 +154,7 @@ DocumentUniqueId=APOAYIUP
 
 [Document7]
 DocumentPath=WIRELESS.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=501
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
@@ -215,10 +215,14 @@ Variation3=Designator=R504|UniqueId=\DBABEENB|Kind=1|AlternatePart=
 Variation4=Designator=R215|UniqueId=\DLHMQWCQ|Kind=1|AlternatePart= 
 Variation5=Designator=R214|UniqueId=\ADGBRYYR|Kind=1|AlternatePart= 
 Variation6=Designator=R407|UniqueId=\IRPVYFCH|Kind=1|AlternatePart= 
-Variation7=Designator=R?|UniqueId=\FTBPBLXX|Kind=1|AlternatePart= 
-Variation8=Designator=R?|UniqueId=\HAHVUHLR|Kind=1|AlternatePart= 
-Variation9=Designator=R?|UniqueId=\TJDCJSKF|Kind=1|AlternatePart= 
+Variation7=Designator=R109|UniqueId=\FTBPBLXX|Kind=1|AlternatePart= 
+Variation8=Designator=R113|UniqueId=\HAHVUHLR|Kind=1|AlternatePart= 
+Variation9=Designator=R111|UniqueId=\TJDCJSKF|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for NG_0036526167_Diplomski-rad\Design Rule Check - NG_0036526167_Diplomski-rad_PCB.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=Engineer
