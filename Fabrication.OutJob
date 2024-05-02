@@ -17,7 +17,7 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Fabrication.OutJob
 Description=
-TargetOutputMedium=Folder Structure
+TargetOutputMedium=Gerbers
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
@@ -29,7 +29,7 @@ OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium2=PDF
 OutputMedium2_Type=Publish
-OutputMedium3=Folder Structure
+OutputMedium3=Gerbers
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia

@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Documentation.OutJob
 Description=
-TargetOutputMedium=NG_0036526167_Diplomski-rad_Schematic
+TargetOutputMedium=BOM
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Samsung M2070 Series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -35,21 +35,50 @@ OutputMedium4=Video
 OutputMedium4_Type=Multimedia
 OutputMedium5=NG_0036526167_Diplomski-rad_Schematic
 OutputMedium5_Type=Publish
+OutputMedium6=BOM
+OutputMedium6_Type=GeneratedFiles
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
 OutputDocumentPath1=
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=1
+OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=All SCH Documents
+OutputType2=BOM_PartType
+OutputName2=Bill of Materials
+OutputCategory2=Report
+OutputDocumentPath2=
+OutputVariantName2=
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=0
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=1
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=General
+Configuration2_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration2_Name3=GroupOrder
+Configuration2_Item3=Comment=True|Footprint=True
+Configuration2_Name4=SortOrder
+Configuration2_Item4=Designator=Up
+Configuration2_Name5=VisibleOrder
+Configuration2_Item5=Designator=120|Comment=120|Value=100|Description=120|Footprint=120|Quantity=120
+Configuration2_Name6=VisibleOrder_Flat
+Configuration2_Item6=Designator=120|Comment=120|Value=100|Description=120|Footprint=120|Quantity=120
 
 [PublishSettings]
 OutputFilePath2=
@@ -156,6 +185,19 @@ ShowComponentParameters5=1
 GlobalBookmarks5=0
 PDFACompliance5=Disabled
 PDFVersion5=Default
+OutputFilePath6=C:\Users\Nikola\Documents\Altium\Altium Projekti\NG_Diplomski-rad_Altium\Project Outputs for NG_0036526167_Diplomski-rad\
+ReleaseManaged6=1
+OutputBasePath6=Project Outputs for NG_0036526167_Diplomski-rad
+OutputPathMedia6=
+OutputPathMediaValue6=
+OutputPathOutputer6=
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=
+OutputFileName6=
+OutputFileNameMulti6==ProjectName+'_BOM_'+CurrentDate
+UseOutputNameForMulti6=0
+OutputFileNameSpecial6=
+OpenOutput6=1
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=
@@ -174,4 +216,14 @@ RelativeOutputPath4=
 OpenOutputs4=1
 RelativeOutputPath5=C:\Users\Nikola\Documents\Altium\Altium Projekti\NG_Diplomski-rad_Altium\Project Outputs for NG_0036526167_Diplomski-rad\Documentation\NG_0036526167_Diplomski-rad_Schematic_.PDF
 OpenOutputs5=1
+RelativeOutputPath6=C:\Users\Nikola\Documents\Altium\Altium Projekti\NG_Diplomski-rad_Altium\Project Outputs for NG_0036526167_Diplomski-rad\
+OpenOutputs6=1
+AddToProject6=1
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
 
